@@ -1,0 +1,16 @@
+name: Vaughan_repo
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - pandas
+  - pip
+  - matplotlib
+  - scipy
+  - jupyter
+  - nbformat
+  - nbconvert
+  - pandoc
+  - pip:
+    - jupyterlab_latex<1.0
